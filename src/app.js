@@ -13,7 +13,7 @@ const app = express();
 // const port=process.env.PORT || 3000;
 
 // settings
-app.set('port',process.env.PORT || 3000)
+app.set('port',process.env.PORT || 4000)
 app.set('view engine','ejs')
 app.set('views',path.join(__dirname,'views'))
 
