@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-color: lightblue; */
+    background-image: linear-gradient(rgb(30, 148, 250), rgb(45, 222, 255));
+}
+
+#base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    padding: 0 15px;
+}
+
+#panelModal{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputEliminarDelete{
+    padding: 10px;
+    border: 1px solid #05304d;
+    border-radius: 50px;
+    text-align: center
+    
+}
+
+#inputEliminarDelete::placeholder {
+    text-align: center; 
+    color:lightgray
+ }
+#inputEliminarDelete:focus {
+    /* text-align: center;  */
+    color:red;
+    /* outline:none; */
+    outline:1.5px solid brown;
+    border: 1px solid brown;
+    /* border: none; */
+    
+}
+
+#btn-confirmar{
+    padding: 8px 45px;
+    border-radius: 50px;
+    border: 2px solid #03d92d;
+    background-color: #03d92d;
+    color: white;
+    display: none;
+}
+
+#btn-confirmar:hover{
+    
+    border: 2px solid green;
+    background-color: green;
+}
+

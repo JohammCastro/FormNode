@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-color: lightblue; */
+    background-image: linear-gradient(rgb(30, 148, 250), rgb(45, 222, 255));
+}
+
+#base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    padding: 0 15px;
+}
+
+#panelModal{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#inputEmail{
+    padding: 10px;
+    border: 1px solid #05304d;
+    border-radius: 50px;
+    text-align: center
+    
+}
+#inputEmail::placeholder {
+    text-align: center; 
+    color:lightgray
+}
+
+#inputEmail:focus {
+/* text-align: center;  */
+color:#05304d;
+/* outline:none; */
+outline:1.5px solid #05304d;
+border: 1px solid #05304d;
+/* border: none; */
+
+}
+
+
+
+#btn-confirmarForm1{
+    padding: 8px 45px;
+    border-radius: 50px;
+    border: 2px solid #03d92d;
+    background-color: #03d92d;
+    color: white;
+    display: none;
+}
+
+#btn-confirmarForm1:hover{
+    
+    border: 2px solid green;
+    background-color: green;
+}
+
